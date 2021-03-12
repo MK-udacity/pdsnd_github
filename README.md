@@ -8,7 +8,7 @@ BikeShare Project
 
 ### Description
 Analysis of the Bike rental data from 3 cities.
-Basics of Version Control using git and GitHub.
+
 
 ### Files used
 python - bikeshare.py
@@ -18,5 +18,5 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://stackoverflow.com
+https://www.edureka.co/

@@ -10,7 +10,12 @@ Replace the Project Title
 Describe what your project is about and what it does
 
 ### Files used
-Include the files used
+data files:
+	washington.csv
+	new_york_city.csv
+	chicago.csv
+python file:
+	bikeshare.py
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.

@@ -11,11 +11,14 @@ Analysis of the Bike rental data from 3 cities.
 
 
 ### Files used
-python - bikeshare.py
-data -
-chicago.csv
-new_york_city.csv
-washington.csv
+
+data files:
+	washington.csv
+	new_york_city.csv
+	chicago.csv
+python file:
+	bikeshare.py
+
 
 ### Credits
 https://stackoverflow.com

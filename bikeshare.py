@@ -23,13 +23,7 @@ def get_filters():
         print('Please enter the correct city name .\n')
         city = input('Which city would you like to explore today? \nChicago or New York City or Washington \n').lower()
     print( "Looks like you want to explore '{}' today, if not, please restart. \n" .format(city))
-        #,if not, please reenter your choice {}
-        #break
-    #city = input().lower()
-        #while city in CITY_DATA:
-           # print( "Looks like you want to explore '{}' today, if not, please restart. " .format(city))
-            #break
-
+        
     # get user input for month (all, january, february, ... , june)
     Month_Data = [ 'january', 'february', 'march', 'april', 'may', 'june', 'all']
     month = input('Please select from the following months -  january, february, march, april, may, june or all. \n').lower()

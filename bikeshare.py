@@ -105,19 +105,7 @@ def display_raw_data(df):
         else:
             break
 
-"""
-def display_data(df):
-    # Diplays the first 5 or the last 5 rows of the DataFrame.
-    display = input('Do you want to see a few rows of the Data ? Please enter Yes or No.\n').lower()
 
-    while display == 'yes':
-        location = input( 'Do you want the first 5 or the last 5 rows shown? Please Enter First or Last.\n').lower()
-        if location == 'first':
-            print(df.head(5))
-        elif location == 'last':
-            print(df.tail(5))
-        break
-"""
 
 def time_stats(df, month, day):
     """Displays statistics on the most frequent times of travel."""
@@ -230,7 +218,6 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df, city)
-        #display_data(df)
         display_raw_data(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
